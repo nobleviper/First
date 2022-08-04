@@ -1,0 +1,10 @@
+/*------------- 밑부분 -------------*/
+.footer {
+    margin-left: 260px;
+    margin-right: 260px;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    height: 200px;
+    background-color: white;
+  }

@@ -1,0 +1,73 @@
+/*------------- 헤더 고정 -------------*/
+.header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: white;
+    position: sticky;
+    top : 0;
+    z-index: 100;
+    border-bottom: 2px solid gray;
+}
+
+/*------------- 로고 -------------*/
+.header_logo{
+    width: 100px;
+    object-fit:contain;
+    margin: 0 20px;
+}
+
+/*------------- 네비게이션 -------------*/
+.header_nav{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------- 로그인바 -------------*/
+.header_nav1{
+    margin-left: 180px; 
+    width: 270px;
+    height: 15px;
+    background-color: #91def5;
+    margin-top: 25px;
+    padding: 4px;
+    border-radius: 80px;
+    text-align: center;
+}
+
+
+/*------------- 로그인바 글자 속성-------------*/
+.header_nav1 > span {
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+/*------------- 목록바 -------------*/
+.header_nav2{
+    width: 440px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 80px;
+    padding: 8px; 
+    justify-content: space-between;
+}
+
+
+/*------------- 목록바 글자 속성-------------*/
+.header_nav2 > span {
+  float: left;
+  margin-top: 3px;
+  width: 110px;
+  height: 25px;
+  text-align: center;
+}
+
+
+
+
+
+

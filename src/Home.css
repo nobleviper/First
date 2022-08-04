@@ -1,0 +1,76 @@
+ /*--------------- 주 컨텐츠 ---------------*/
+.container {
+  margin: 0 auto;
+  width: 800px;
+  height: 680px;
+}
+  
+  /*------------- 강아지 추천칸 -------------*/
+ .recommend {
+    width: 800px;
+    height: 376px;
+    position: relative;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-color: gray;
+  }
+  
+  .a {
+    width: 800px;
+    height: 350px;
+    background-color: #91DEF5;
+    margin-top: 12px;
+    border-radius: 50px;
+  }
+  
+  /*------------- 콘텐츠 박스 -------------*/
+  .contents {
+    width: 800px;
+    height: 300px;
+  }
+  
+  /*------------- 이벤트 박스 1 -------------*/
+  .dogsearch {
+    float: left;
+    width: 399px;
+    height: 300px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: gray;
+  }
+  
+  .b {
+    width: 376px;
+    height: 276px;
+    background-color: #91DEF5;
+    margin: 12px 12px;
+    border-radius: 50px;
+  }
+  
+  /*------------- 이벤트 박스 2 -------------*/
+  .hospital {
+    float: right;
+    width: 399px;
+    height: 300px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-color: gray;
+  }
+  
+  .c {
+    width: 376px;
+    height: 276px;
+    background-color: #91DEF5;
+    margin: 12px 12px;
+    border-radius: 50px;
+  }
+  
+
+  /*
+  @media(max-width:800px){
+
+}
+*/
+
+
+  
